@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background: url(beautiful-japanese-forest-scene_23-2151498105.jpg);
+    align-items: center;
+    background-size: cover;
+}
+
+.box{
+    width: 420px;
+    background-color: transparent;
+    color: #fff;
+    padding: 30px 40px ;
+}
+
+
+.box h1{
+    text-align: center;
+    font-size: 35px;
+    margin: 5px 0 ;
+    color: #003314;
+    font-weight: 600;
+}
+
+.box .user-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.box .user-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 2);
+    border-radius: 40px;
+    font-size: 25px;
+    padding: 20px 45px 20px 20px;
+}
+
+.user-box input::placeholder{
+    color: #fff;
+    font-size: 25px;
+}
+
+.user-box i{
+    position: absolute;
+    font-size: 25px;
+    right: 1px;
+    top: 30%;
+    transform: translate(-20px);
+}
+
+.me{
+    position: flex;
+    justify-content: space-between;
+    margin: 15px 0px ;
+}
+.me label input{
+    color: #fff;
+    /* margin: 0 0 0 15px; */
+}
+.me a{
+    margin-left: 90px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.me a:hover{
+    text-decoration: underline solid red;
+    color: red;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    font-size: 25px;
+    background: #003314;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin: 5px 0 ;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #003314;
+    color: #fff;
+    box-shadow: 0 0 5px #003314,
+    0 0 25px #003314,
+    0 0 50px #003314,
+    0 0 100px #003314;
+}
+
+.re{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 16px;
+    color: #fff;
+}
+.re a{
+    text-decoration: none;
+    color: #fff;
+}
+.re a:hover{
+    color: green;
+    text-decoration: underline 2px;
+}
