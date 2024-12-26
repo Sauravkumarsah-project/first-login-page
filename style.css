@@ -5,11 +5,19 @@
     font-family: sans-serif;
 }
 
+.image-box{
+    background-image: url(rb_7883.png);
+    background-color: transparent;
+    width: 45rem;
+    height: 35rem;
+    background-size: cover;
+}
+
 body{
     display: flex;
     min-height: 100vh;
     justify-content: center;
-    background: url(beautiful-japanese-forest-scene_23-2151498105.jpg);
+    background: linear-gradient(#9eaba2,#bdd1c5);
     align-items: center;
     background-size: cover;
 }
