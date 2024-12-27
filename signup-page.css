@@ -100,6 +100,10 @@ body{
     padding: 0 5px 2px;
     cursor: pointer;
 }
+.btn a{
+    text-decoration: none;
+    color: black;
+}
 .check-box a{
     border: none;
     text-decoration: none;
