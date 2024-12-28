@@ -7,7 +7,8 @@
 
 body{
     display: flex;
-    justify-content: left;
+    flex-wrap: wrap;
+    justify-content: center;
     min-height: 100vh;
     align-items: center;
     background-color: #ffff;
@@ -20,6 +21,7 @@ body{
 }
 
 .box{
+    justify-content: center;
     width: 395px;
     color: rgb(14, 14, 14);
     background-color: transparent;
@@ -112,6 +114,7 @@ body{
 .box .check-box a:hover{
     text-decoration: underline ;
 } 
+
 
 
 
