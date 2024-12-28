@@ -20,6 +20,7 @@ body{
     background: linear-gradient(#9eaba2,#bdd1c5);
     align-items: center;
     background-size: cover;
+    overflow: hidden;
 }
 
 .box{
